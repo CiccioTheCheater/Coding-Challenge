@@ -1,0 +1,72 @@
+/* Tutto il CORPO */
+body {
+  background-image: url(image/background.jpg);
+}
+/* Quadrato Trasparente */
+.contenuto {
+  border-radius: 15px;
+  height: 850px;
+  width: 1200px;
+  margin: auto;
+  margin-top: 30px;
+  background: rgba(0, 0, 0, .5);
+  color: white;
+}
+/* Logo + Titoli del Contenuto */
+.logo {
+  width: 250px;
+  margin-top: 95px;
+  margin-left: 470px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 35px;
+  font-family: Arial, sans-serif;
+  color: lime;
+}
+/* Pulsanti per prenotare / annullare e accendere le luci del Monopattino */
+nav > div {
+  text-align: center;
+}
+
+.lineanav {
+  background-color: lime;
+  border-radius: 0px;
+  padding: 12px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+/* Scelta Monopattino */
+main {
+  margin-left: 100px;
+}
+
+input, span {
+  display: inline-block;
+}
+
+b {
+  font-size: 25px;
+  font-family: Arial, sans-serif;
+}
+/* Stato Carica dei Monopattini */
+#arancio, #verde, #rosso {
+  border-radius: 5px;
+  padding: 15px;
+}
+
+#arancio {
+  background-color: sandybrown;
+  margin-right: 68%;
+}
+
+#verde {
+  background-color: limegreen;
+  margin-right: 40%;
+}
+
+#rosso {
+  background-color: #F65050;
+  margin-right: 88%;
+}
